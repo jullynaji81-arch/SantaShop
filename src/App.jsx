@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'; // 1. استيراد مكونات الـ Router
+import { HashRouter, Routes, Route } from 'react-router-dom'; // 1. استيراد مكونات الـ Router
+ // 1. استيراد مكونات الـ Router
 
 
 import './index.css'
@@ -10,9 +11,8 @@ import  Loginpage  from './pages/Login'
 import  Registerpage  from './pages/Register'
 
 function App() {
-
   return (
-   <BrowserRouter>
+  <HashRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/shop" element={<ShopPage />} /> 
@@ -22,7 +22,7 @@ function App() {
 
      
       </Routes>
-    </BrowserRouter>
+   </HashRouter>
   )
 }
 

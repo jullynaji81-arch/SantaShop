@@ -31,7 +31,7 @@ function HomeShopping  ()  {
           <div className="shopping__card">
             <h3>$10.75</h3>
             <img src="assets/shopping-1.jpg" alt="shopping" />
-            <h4>Drum Decors</h4>
+            <h4>Drum Deooocors</h4>
           </div>
           <div className="shopping__card">
             <h3>$75.50</h3>
@@ -40,7 +40,7 @@ function HomeShopping  ()  {
           </div>
           <div className="shopping__card">
             <h3>$20.00</h3>
-            <img src="assets/shopping-3.jpg" alt="shopping" />
+            <img src="assets/festive.png" alt="shopping" />
             <h4>Santa Cap Pack</h4>
           </div>
           <div className="shopping__card">

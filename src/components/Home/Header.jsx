@@ -38,7 +38,7 @@ ScrollReveal().reveal(".header__tag", {
         </div>
         <div className="nav__actions">
           <Link to="/"> Home</Link>
-          <Link to="/shop"> Shop </Link>
+          <Link to="/shop"> Shopp </Link>
           <Link to="/about"> About</Link>
           <Link to="/login"><i className="ri-login-box-line"></i></Link>
           <Link to="/regiser"><i className="ri-user-add-line"></i></Link>

@@ -5,9 +5,8 @@ function Login  ()  {
   const navigate = useNavigate();
 
   const handleRegister = (e) => {
-    e.preventDefault(); // منع إعادة تحميل الصفحة
-    // هنا ممكن تضيف أي عملية تسجيل فعلية قبل الانتقال
-    navigate("/"); // يذهب إلى صفحة Home
+    e.preventDefault(); 
+    navigate("/"); 
   };
   return (
  <div className="containerdoz">
@@ -36,7 +35,7 @@ function Login  ()  {
          <Link to="/"><img src="assets/github.png" alt="github" /></Link>
           <Link to="/"><img src="assets/facebook.png" alt="facebook" /></Link>
         </div>
-        <p>Don't have an account yet?  <Link to="/sinup">Sign up for free</Link></p>
+        <p>Don't have an account yet?  <Link to="/regiser">Sign up for free</Link></p>
       </div>
       <div className="containerdoz__image">
         <img src="assets/headerlogin.png" alt="header" />

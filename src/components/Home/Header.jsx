@@ -54,7 +54,7 @@ ScrollReveal().reveal(".header__tag", {
           </p>
         </div>
         <div className="header__tag">
-          Buy This Product <span><i className="ri-shopping-basket-line"></i></span>
+         <Link to="/shop">  Buy This Product</Link>   <span><i className="ri-shopping-basket-line"></i></span>
         </div>
       </div>
     </header>  

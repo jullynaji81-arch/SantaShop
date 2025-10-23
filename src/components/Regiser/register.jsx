@@ -1,14 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-
+import { useNavigate } from "react-router-dom";
 function Register  ()  {
+   const navigate = useNavigate();
+  
+    const handleRegister = (e) => {
+      e.preventDefault(); // منع إعادة تحميل الصفحة
+      // هنا ممكن تضيف أي عملية تسجيل فعلية قبل الانتقال
+      navigate("/"); // يذهب إلى صفحة Home
+    };
   return (
  <div className="containerdoz">
       <div className="containerdoz__content">
         <h2>Santa</h2>
         <h3>Welcome back!</h3>
         <h1>Register</h1>
-        <form action="/">
+        <form action="/" onSubmit={handleRegister}>
           <label for="name">Name</label>
           <div className="input__row">
             <input type="text" placeholder="Enter Your Name" />

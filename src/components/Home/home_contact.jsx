@@ -33,7 +33,7 @@ ScrollReveal().reveal(".explore__content .explore__btn", {
         </h2>
         <form action="/" className="coupon__form">
           <input type="text" placeholder="Enter Your Email" />
-          <button className="btn"><i className="ri-arrow-right-line"></i></button>
+          <button className="btn" type='button'><i className="ri-arrow-right-line"></i></button>
         </form>
       </div>
     </section> 
